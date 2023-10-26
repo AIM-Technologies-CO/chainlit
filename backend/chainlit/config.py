@@ -63,6 +63,9 @@ name = "Chatbot"
 # Show the readme while the conversation is empty.
 show_readme_as_default = true
 
+# The text displayed in the watermark. The original text is "Built with"
+# watermark_text = "Built by"
+
 # Description of the app and chatbot. This is used for HTML tags.
 # description = ""
 
@@ -173,6 +176,8 @@ class UISettings(DataClassJsonMixin):
     theme: Optional[Theme] = None
     # Optional custom CSS file that allows you to customize the UI
     custom_css: Optional[str] = None
+    # Optional watermark text, like 'Built by' or 'Built with'
+    watermark_text: Optional[str] = None
 
 
 @dataclass()
