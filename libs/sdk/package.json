@@ -22,7 +22,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "graphql-request": "^6.1.0",
-    "uuid": "^9.0.0"
+    "uuid": "^14.0.0"
   },
   "devDependencies": {
     "@types/uuid": "^9.0.3",
